@@ -1,0 +1,135 @@
+﻿body {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+li a {
+    color: #808080;
+    text-decoration: none;
+    
+}
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        color: #111;
+    }
+.nav-bar a:hover {
+    color: #111;
+    text-decoration: none;
+}
+.nav-bar a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.nav-bar {
+    width: 100%;
+    font-family: 'Roboto', serif;
+    height: 15%;.
+
+}
+
+
+    .nav-bar li {
+        padding-right: 10px;
+        padding-left: 10px;
+        display: inline;
+    }
+
+    .nav-bar ul {
+        padding-right: 20%;
+        float: right;
+    }
+
+.header-line {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.intro-header {
+    font-size: 30px;
+    padding-left: 20%;
+    color: rgb(59, 58, 58);
+    width: 10%;
+    display: inline;
+    font-style: bold;
+}
+
+hr {
+    width: 100%;
+    color: rgb(59, 58, 58);
+}
+.intro-header span{
+    height:50%;
+    width:10%;
+    font-size:12px;
+}
+
+.blog_entry {
+    width: 44%;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 28%;
+    margin-right: 28%;
+    color: rgb(59, 58, 58);
+    margin-top: 25px;
+    font-family: 'Roboto', serif;
+}
+
+.blog_entry {
+    width: 60%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(59, 58, 58);
+    margin-top: 25px;
+    font-family: 'Roboto', serif;
+}
+
+.blog_entry_header {
+    vertical-align: text-bottom;
+}
+
+.blog_entry .title {
+    font-size: 30px;
+    font-size: 22px;
+    display: inline;
+    float: clear;
+    font-weight: bold;
+    height: 30px;
+}
+.blog_entry .date {
+    display: inline;
+    margin-left:5px;
+    /*  float: right;*/
+    padding-top: 20px;
+}
